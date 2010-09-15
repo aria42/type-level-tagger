@@ -39,7 +39,7 @@
 (defn log-prob 
   "log prob. from a DirichletMultinomial"  
   [distr key]                                                
-  {:post [(> % Double/NEGATIVE_INFINITY),(neg? %)]}
+  {:post [(> % Double/NEGATIVE_INFINITY)]}
   (let [{:keys [counter lambda num-keys]} distr]        
     (Math/log (/ (+ (get-count counter key) lambda) 
                  (+ (:total counter) (* lambda num-keys))))))
