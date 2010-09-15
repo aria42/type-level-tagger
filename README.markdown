@@ -17,6 +17,9 @@ Simply run the script with the following arguments
 	alpha: hyper-parameter for type-level distributions (try 1)
 	beta: hyper-parameter for token-level distributions (try 0.1)
 
+If you want to test this on a corpus of the appropriate size, I have the Brown corpus (approximately 1 million tokens)
+which you can use as input at http://db.tt/aYl0tfx. Only available for non-commercial purposes. 
+
 # Author #
 Aria Haghighi (aria42@gmail.com) 
 
